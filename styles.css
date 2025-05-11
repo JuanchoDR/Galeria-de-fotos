@@ -1,6 +1,11 @@
 *{
     box-sizing:border-box; /*es una propiedad CSS que define cómo se calcula el ancho y la altura de un elemento*/
     }                    /*Con esta propiedad, el padding y el border se incluyen dentro de la altura y el ancho especificados, en lugar de sumarse a ellos y aumentar el tamaño total de la caja*/
+    body{
+        margin:0;
+        font-family:sans-serif;
+        background-color: #f5f6f7;
+      }
     .gallery img{
         width: 100%;
         max-width:350px;
