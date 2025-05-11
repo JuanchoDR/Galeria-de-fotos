@@ -1,3 +1,6 @@
+*{
+    box-sizing:content-box; /*es una propiedad CSS que define cómo se calcula el ancho y la altura de un elemento*/
+    }
 .gallery{
     width: 50%;
     border: 5px solid red;
