@@ -33,3 +33,7 @@
         margin: 0 auto;
         gap: 16px; /*gap especifica los espacios, también conocidos como canales, entre filas y columnas. */
     }
+    .gallery::after{
+        content: "";
+        width:350px;
+      }
