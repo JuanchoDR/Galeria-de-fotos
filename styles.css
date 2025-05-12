@@ -22,4 +22,5 @@
       .gallery{
         display: flex; /*Esto hará que el elemento sea un flex container*/
         flex-direction:row; /*Flexbox tiene un eje principal y otro transversal. El eje principal está definido por la propiedad flex-direction*/
-      }
+        flex-wrap: wrap; /*Si se establece como wrap, los elementos se colocan en la siguiente fila o columna*/
+    }
