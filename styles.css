@@ -20,5 +20,6 @@
         border-bottom: 4px solid #fdb347;
       }
       .gallery{
-        display: flex;
+        display: flex; /*Esto hará que el elemento sea un flex container*/
+        flex-direction:row; /*Flexbox tiene un eje principal y otro transversal. El eje principal está definido por la propiedad flex-direction*/
       }
